@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+body{
+    background: rgb(15,14,16);
+    background: linear-gradient(0deg, rgba(15,14,16,1) 0%, rgba(7,64,96,1) 50%, rgba(15,14,16,1) 100%);
+    color: aliceblue;
+    font-family: 'Jost', sans-serif;
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    
+}
+h1{text-align: center;}
+.page{
+    align-items: center;
+    display: flex;
+}
+
+.in {
+    /* background-color: black; */
+    height: 450px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.out {
+    /* background-color: blueviolet; */
+    height: 450px;
+    width: 900px;
+    display: grid;
+    justify-items:start ;
+}
+
+input, select{
+    background-color: rgba(53, 50, 47, 0.5);
+    border-radius: 0%;
+    margin-left: 5px;
+    color: azure;
+}
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ol > li{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+button{
+    background-color: rgba(121, 117, 117, 0.4);
+    color: aliceblue;
+}
+
+.description, .title, .due , .priority, button {
+    margin-top: 10%;
+}

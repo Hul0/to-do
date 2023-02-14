@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekly To-Do</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Weekly To-Do</h1>
+    <div class="page">
+        <div class="in">
+            <div class="title">
+                Title:
+                <input type="text">
+            </div>
+            <div class="description">
+                Description:
+                <input type="text" class="description_box">
+            </div>
+            <div class="due">
+                Due On:
+                <select name="Due Day" id="day">
+                    <option value="Sunday">Sunday</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednessday">Wednessday</option>
+                    <option value="Thursday">Thursday</option>
+                    <option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                </select>
+            </div>
+            <div class="priority">
+                Priority:
+                <select name="Priority" id="priority">
+                    <option value="High">High</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Low">Low</option>
+                </select>
+            </div>
+            <button id="add">Add</button>
+        </div>
+
+        <div class="out">
+            <ol class="tasks">
+
+            </ol>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
